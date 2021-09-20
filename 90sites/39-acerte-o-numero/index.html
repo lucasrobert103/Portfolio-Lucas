@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acerte o número | Lucas Robert</title>
+    <meta property="og:url" content="https://www.lucasrobert.com/90sites/39-acerte-o-numero"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Acerte o número | Lucas Robert"/>
+    <meta property="article:author" content="Lucas Robert">
+    <meta property="og:description" content="Como andam suas habilidades de chutar números?"/>
+    <meta property="og:image" content="/public/assets/opengraph.jpg"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Acerte o número</h1>
+    <p>Tente acertar o número entre 1 e 100.</p>
+    <p>Você tem 10 tentativas para conseguir acertar.</p>
+    </br>
+    <div id="wrapper">
+        <form class="form">
+            <label2 for="guessField" id="guess">Escolha um número:</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Envie o número" class="guessSubmit">
+        </form>
+
+        <div class="resultParas">
+            <p >Tentativas passadas: <span class="guesses"></span></p>
+            <p >Tentativas restantes: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

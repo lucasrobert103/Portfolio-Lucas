@@ -1,0 +1,21 @@
+* { 
+    margin:0; 
+    padding:0;  
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#message {
+    text-align: center;
+    flex: 1;
+}
+
+canvas { 
+    flex: 1;
+}
